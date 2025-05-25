@@ -20,6 +20,8 @@ mod humantime;
 mod humantime_wrapper;
 mod integers;
 mod ip;
+#[cfg(feature = "jiff")]
+mod jiff;
 #[cfg(feature = "ndarray")]
 mod ndarray;
 mod non_zero;
